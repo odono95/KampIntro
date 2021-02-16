@@ -7,7 +7,7 @@ namespace OOP3
     //method injection
     class BasvuruManager
     {
-        public void BasvuruYap(IKrediManager krediManager, List<ILoggerService> loggerService)
+        public void BasvuruYap(IKrediManager krediManager, ILoggerService loggerService)
         {
             //Başvuran bilgilerini değerlendirme
             //
